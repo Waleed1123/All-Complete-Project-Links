@@ -49,13 +49,17 @@ li a {
     font-size: 1.3rem;
 }
 
+
 li:hover {
     border: 3px solid #4f7696;
     background-color: #1a1f68;
     transition: all 0.5s;
-    cursor: pointer;
 }
-
+li:hover a{
+    color: 	#b3cde0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
 h2 {
     font-size: 2rem;
     margin: 10px auto;
