@@ -47,6 +47,7 @@ li a {
     color: white;
     text-decoration: none;
     font-size: 1.3rem;
+    transition: all 0.5s;
 }
 
 
@@ -56,9 +57,9 @@ li:hover {
     transition: all 0.5s;
 }
 li:hover a{
-    color: 	#b3cde0;
+    color: 	black;
     cursor: pointer;
-    transition: all 0.5s;
+    font-weight: bold;
 }
 h2 {
     font-size: 2rem;
